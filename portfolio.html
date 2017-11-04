@@ -4,46 +4,80 @@
 	<title>Luke Stewart</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
 	<meta name ="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="UTF-8">
 </head>
 
 <body>
-		<header id="myName">
-			<h1>Luke Stewart</h1>
-		</header>
-		<!-- <a href="mailto:lukestewart@gmail.com"> -->
-			<section id = "contact">Contact</section>
-			<section id = "portfolio">Portfolio</section>
-			<section id = "about">About</section>
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+		  <div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			  <span class="sr-only">Toggle navigation</span>
+			  <span class="icon-bar"></span>
+			  <span class="icon-bar"></span>
+			  <span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#" id="myName">Luke Stewart</a>      
+		  </div>
+  
+		  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right">
+			  <li><a href="index.html">About</a></li>
+			  <li><a href="portfolio.html">Portfolio</a></li>
+			  <li><a href="contact.html">Contact</a></li>
+			</ul>
+		  </div>   
+		</div>
+	  </nav>
 
-<section id="textured">
-	<div id = "textBox">
-		<div id = aboutMe>Portfolio</div>
+<div>
+	<div class="container">
+		<div class = "row">
+			<div class = "col-sm-6">
+				<div class="page-header">
+					<div id = aboutMe><h1>Portfolio</h1></div>
 
-		<img id= "image" src="assets/css/images/noose.jpg">
+					<img id= "image" src="assets/css/images/noose.jpg">
 
-		<img id= "image" src="assets/css/images/Dwarf.jpg">
+					<img id= "image" src="assets/css/images/Dwarf.jpg">
 
-		<img id= "image" src="assets/css/images/trivia.png">
+					<img id= "image" src="assets/css/images/trivia.png">
 
-		<img id= "image" src="assets/css/images/rutgers.jpg">
+					<img id= "image" src="assets/css/images/rutgers.jpg">
 
-		<img id= "image" src="assets/css/images/RPS.jpg">
-
+					<img id= "image" src="assets/css/images/RPS.jpg">
+				</div>
+			</div>
+		</div>
 	</div>
+</div>
 
-	<div id="connectBox">
-		<div id="connect">Connect with me</div>
-		<a href ="https://github.com/linkadinkadoo" target ="_blank"><img id="git" src="assets/css/images/github-logo.jpg"></a>
 
-		<a href="https://www.linkedin.com/in/luke-stewart-b780755/" target="_blank"><img id="logos" src="assets/css/images/linkedin-logo.png"></a>
+	<div class="col-sm-4">
+        <div class="card" style="width: 20rem;">
+          
+          <div class="card-body">
+            <h4 class="card-title">Connect with Me</h4>
+      
+            <a href="#" class="thumbnail"><img src="assets/css/images/github-logo.jpg" id="logos"></a>
+            <a href="#" class="thumbnail"><img src="assets/css/images/linkedin-logo.png" id="logos"></a>
+            <a href="#" class="thumbnail"><img src="assets/css/images/stackoverflow.png" id="logos"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-		<a href="https://stackoverflow.com/users/8623901/lks?tab=profile" target="_blank"><img id="logos" src="assets/css/images/stackoverflow.png"></a>
-	</div>
-	
-</section>
-<footer>© Copyright 2017 Luke Stewart</footer>
+
+
+  <!-- this is the footer -->
+  <footer class="container">
+    <div class="row">
+      <p class="col-sm-4">&copy; 2017 Luke Stewart</p>
+    </div>
+  </footer>
 </body>
 
 </html>
